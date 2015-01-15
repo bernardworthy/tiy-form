@@ -40,6 +40,10 @@ body {
   margin: 25px;
 }
 
+.phone:invalid {
+  color: red;
+}
+
 .radio, .checkbox {
   margin-right: 10px;
   float: left;
