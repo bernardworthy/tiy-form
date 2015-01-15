@@ -1,127 +1,136 @@
 <!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by bernardworthy (http://jsbin.com/tazayi/7/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>JS Bin</title>
+    <meta charset="utf-8">
+    <title>TIY-Form</title>
 </head>
 <body>
-  <div class="main">
+    <div class="main">
 
-    <form method="post" action="index.html" class="userDetails">
+        <form method="post" action="index.html" class="userDetails">
 
-      <header class="header"><h2>Signup as a Feedstyle Promoter!</h2></header>
+          <header class="header"><h2>Signup as a Feedstyle Promoter!</h2></header>
 
-      <label class="fullnameLabel">
+            <label class="fullnameLabel">
 
-        <input type="text" name="userFullname" placeholder="Full Name">
-
-      </label>
-
-      <label class="phoneLabel">
-
-        <input class="phone" type="text" name="userPhone" placeholder="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="10-digit phone number; ex: 555-765-4321">
-
-      </label>
-
-      <label class="emailLabel">
-
-        <input type="email" name="userEmail" placeholder="Email">
-
-      </label>
-
-      <label class="occupationLabel">
-
-        <select>
-
-          <option value="developer">Developer</option>
-          <option value="designer">Designer</option>
-          <option value="marketer">Marketer</option>
-          <option value="doctor">Doctor</option>
-          <option value="lawyer">Lawyer</option>
-
-        </select>
-
-      </label>
-
-      <label class="bioLabel">
-
-        <textarea name="userBio" placeholder="Brief Bio" rows="5" cols="50"></textarea>
-
-      </label>
-
-      <div class="genderSection">
-
-        <label><p><strong>Choose Gender</strong></p><label>
-
-          <div class="male">
-
-            <label>Male
-
-              <input class="radio" type="radio" name="userGender" value="Male">
+                <input type="text" name="userFullname" placeholder="Full Name">
 
             </label>
 
-          </div>
+            <label class="phoneLabel">
 
-          <div class="female">
-
-            <label>Female
-
-              <input class="radio" type="radio" name="userGender" value="Female">
+                <input class="phone" type="text" name="userPhone" placeholder="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="10-digit phone number; ex: 555-765-4321">
 
             </label>
 
-          </div>
+            <label class="emailLabel">
+
+                <input type="email" name="userEmail" placeholder="Email">
+
+            </label>
+
+            <label class="occupationLabel">
+
+                <select>
+
+                  <option value="developer">Developer</option>
+                  <option value="designer">Designer</option>
+                  <option value="marketer">Marketer</option>
+                  <option value="doctor">Doctor</option>
+                  <option value="lawyer">Lawyer</option>
+
+                </select>
+
+            </label>
+
+            <label class="bioLabel">
+
+                <textarea name="userBio" placeholder="Brief Bio" rows="5" cols="50"></textarea>
+
+            </label>
+
+            <div class="genderSection">
+
+              <label><p><strong>Choose Gender</strong></p><label>
+
+                <div class="male">
+
+                    <label>Male
+
+                        <input class="radio" type="radio" name="userGender" value="Male">
+
+                    </label>
+
+                </div>
+
+                <div class="female">
+
+                    <label>Female
+
+                        <input class="radio" type="radio" name="userGender" value="Female">
+
+                    </label>
+
+                </div>
 
 
-
-        </div>
-
-        <div class="notificationSection">
-
-          <label><p><strong>Choose Notification Method</strong></p><label>
-
-            <div class="sms">
-
-              <label>SMS Notifications
-
-                <input class="checkbox" type="checkbox" name="userNotification" value="SMS notifications">
-
-              </label>
 
             </div>
 
-            <div class="email">
+            <div class="notificationSection">
 
-              <label>Email Notifications
+              <label><p><strong>Choose Notification Method</strong></p><label>
 
-                <input class="checkbox" type="checkbox" name="userNotification" value="Email notifications">
+                <div class="sms">
 
-              </label>
+                    <label>SMS Notifications
+
+                        <input class="checkbox" type="checkbox" name="userNotification" value="SMS notifications">
+
+                    </label>
+
+                </div>
+
+                <div class="email">
+
+                    <label>Email Notifications
+
+                        <input class="checkbox" type="checkbox" name="userNotification" value="Email notifications">
+
+                    </label>
+
+                </div>
 
             </div>
 
-          </div>
+            <div>
+                <label class="termsLabel">By checking this box, you agree with the Terms of Use
 
-          <div>
-            <label class="termsLabel">By checking this box, you agree with the Terms of Use
+                    <input class="checkbox" type="checkbox" name="userNotification" value="Yes">
 
-              <input class="checkbox" type="checkbox" name="userNotification" value="Yes">
+                </label>
+
+            </div>
+
+
+
+            <label class="signupLabel">
+
+                <button class="submitBtn" type="submit" name="userSignup" placeholder="Signup">Submit</button>
 
             </label>
 
-          </div>
+        </form>
 
-
-
-          <label class="signupLabel">
-
-            <button class="submitBtn" type="submit" name="userSignup" placeholder="Signup">Submit</button>
-
-          </label>
-
-    </form>  
-
-  </div>
+    </div>
 </body>
 </html>
